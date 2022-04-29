@@ -117,11 +117,67 @@ class _MyHomePageState extends State<MyHomePage> {
               const SizedBox(height: 16.0,),
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: const [
-                  Text("Angular"),
-                  Text("SQL"),
-                  Text("Flutter"),
-                  Text("English"),
+                children:[
+                  Column(
+                    children:[
+                      Row(
+                        children: [
+                          const Text('4'),
+                          const Icon(
+                            Icons.star,
+                            size: 16.0, 
+                            color: Colors.yellow
+                            ),
+                        ],
+                      ),
+                      Text("Mikrotik"),
+                    ],
+                  ),
+                  Column(
+                    children:[
+                      Row(
+                        children: [
+                          const Text('4'),
+                          const Icon(
+                            Icons.star,
+                            size: 16.0, 
+                            color: Colors.yellow
+                            ),
+                        ],
+                      ),
+                      Text("Cisco"),
+                    ],
+                  ),
+                  Column(
+                    children:[
+                      Row(
+                        children: [
+                          const Text('4'),
+                          const Icon(
+                            Icons.star,
+                            size: 16.0, 
+                            color: Colors.yellow
+                            ),
+                        ],
+                      ),
+                      Text("Microsoft"),
+                    ],
+                  ),
+                  Column(
+                    children:[
+                      Row(
+                        children: [
+                          const Text('4'),
+                          const Icon(
+                            Icons.star,
+                            size: 16.0, 
+                            color: Colors.yellow
+                            ),
+                        ],
+                      ),
+                      Text("Ruijie"),
+                    ],
+                  ),
                 ],
               ),
               const SizedBox( height: 16.0),
