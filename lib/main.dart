@@ -180,7 +180,31 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ],
               ),
-              const SizedBox( height: 16.0),
+              const SizedBox( height: 25.0),
+              const Text("Find Me",
+                style: TextStyle(
+                  fontWeight: FontWeight.bold,
+                  fontSize: 16.0
+                ),
+              ),
+              const SizedBox(height: 16.0,),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: const [
+                  Icon(
+                    Icons.facebook,
+                    color: Colors.blue,
+                  ),
+                  Icon(
+                    Icons.telegram,
+                    color: Colors.blue,
+                  ),
+                  Icon(
+                    Icons.whatsapp,
+                    color: Colors.green,
+                  ),
+                ],
+              )
             ],
            ),
          ), 
