@@ -46,7 +46,7 @@ class _MyHomePageState extends State<MyHomePage> {
          Container(
           width: MediaQuery.of(context).size.width,
           height: MediaQuery.of(context).size.height * 0.4,
-          padding: const EdgeInsets.only(top: 64.0),
+          padding: const EdgeInsets.only(top: 50.0),
           decoration: BoxDecoration(
             color: Colors.blue,
             borderRadius: BorderRadius.only(
@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   backgroundImage: NetworkImage("https://scontent-sin6-1.xx.fbcdn.net/v/t31.18172-8/10557149_1501364603432459_4348081909003327504_o.jpg?_nc_cat=109&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeHg3h2a41vI1FB7wctZBTmffPYqHEAaT8h89iocQBpPyGmyg02dAvTkbvzciOtO3his41jjef65Obpoh3Uabvq0&_nc_ohc=p34Ls2Hp_wwAX-Am9iV&_nc_ht=scontent-sin6-1.xx&oh=00_AT9US3ePDL2kgWnqTRow7E8faA3TQWZVmiw8iKjDCzR6HQ&oe=6290CB66"),
                 ),
                 Text(
-                  'Guntur', 
+                  'Guntur Sakti', 
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 24.0,
@@ -69,7 +69,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                 ),
                  Text(
-                  'lecture', 
+                  'Engineer', 
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 20.0,
@@ -87,7 +87,7 @@ class _MyHomePageState extends State<MyHomePage> {
             child: Column(
              children: [
               const SizedBox(height: 30.0),
-              const Text("about me",
+              const Text("About me",
                style: TextStyle(
                  fontWeight: FontWeight.bold,
                  fontSize: 16.0,
